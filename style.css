@@ -1,0 +1,137 @@
+:root {
+    --pinkColor: #ff1671;
+    --gradientPink: linear-gradient( #ff5196, #ff1671);
+}
+a.nav-link {
+    color: black;
+}
+a.nav-link:active {
+    color: var(--pinkColor);
+}
+a.nav-link:hover {
+    color: var(--pinkColor);
+}
+div.slider_container {
+    padding: 0;
+}
+div.slider {
+    margin-top: 100px;
+    border-radius: 10px;
+    height: 400px;
+    background: #feeae9;
+    overflow: hidden;
+}
+@media(max-width: 425px){
+    div.slider {
+        height: auto;
+    }
+}
+div.slider_row_container {
+    margin: 0px;
+}
+div.slider_card {
+    padding: 0px 30px;
+}
+@media(max-width: 425px){
+    div.slider_card {
+        padding: 20px;
+        margin: 0px auto;
+    }
+}
+div.slider_banner {
+    width: 350px;
+}
+@media(max-width: 425px){
+    div.slider_banner {
+        width: 100%;
+    }
+}
+div.slider_banner img {
+    width: 100% !important;
+}
+h3.slider_item_price {
+    color: var(--pinkColor);
+}
+button.buy_btn {
+    background: var(--gradientPink);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+a.control_btn {
+    top: 50% !important;
+    bottom: 50% !important;
+}
+div.categories_row {
+    margin-top: 100px;
+}
+div.categories_item_1 {
+    background-image: linear-gradient(to right, #ef942f, #f5c61c);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    cursor: move;
+}
+div.categories_item_2 {
+    background-image: linear-gradient(to right, #ff4a92, #ff3584);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    cursor: move;
+}
+div.categories_item_3 {
+    background-image: linear-gradient(to right, #4173ff, #0203ff);
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    cursor: move;
+}
+/* div.categories_item:hover {
+    animation: bounce;
+    animation-duration: 2s;
+} */
+@media(max-width: 425px){
+    div.categories_item_1, div.categories_item_2, div.categories_item_3 {
+        margin-top: 20px !important;
+    }
+}
+div.categories_image {
+    width: 100px;
+}
+div.categories_image img {
+    width: 100%;
+}
+section.shoes_container {
+    margin-top: 100px;
+}
+div.card_design {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    border-radius: 7px;
+}
+div.main_subscribe_container {
+    margin: 100px 0px;
+    padding: 50px;
+    border-radius: 10px;
+    background: #feeae9;
+}
+div.subscribe_container {
+    width: 50%;
+    margin: 0px auto;
+}
+@media(max-width: 425px){
+    div.subscribe_container{
+        width: 100%;
+    }
+}
+.nav-link {
+    padding: .7rem;
+    margin: 0 1rem;
+}
+p.footer_text {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
